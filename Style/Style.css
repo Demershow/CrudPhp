@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+}
+
+main {
+  background: linear-gradient(135deg, #4a4a4a, #999999);
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+#logo {
+  height: 90px;
+  width: 100px;
+}
+
+.input {
+  font-size: 40px;
+}
+
+.Header-Content {
+  margin-left: 12px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+header {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px;
+  flex-direction: row;
+  display: flex;
+  justify-content: 10px;
+  align-items: center;
+  height: 90px;
+  margin: 0;
+}
+
+.Header-Texto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: left;
+  width: 100vw;
+  height: 90px;
+}
