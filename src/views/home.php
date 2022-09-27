@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="Style/Style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="../../Style/Home.css" />
+    <title>Crud PHP</title>
   </head>
   <body>
     <header class="Header">
@@ -15,12 +15,12 @@
         </h1>
       </div>
       <h1 class="Header-Logo">
-        <img src="Public/Images/logo.png" alt="Logo" id="logo" />
+        <img src="../../Public/Images/logo.png" alt="Logo" id="logo" />
       </h1>
     </header>
     <main class="Main"></main>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="/src/script.js"></script>
+    <script src="/src/JS/script.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
