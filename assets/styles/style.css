@@ -1,0 +1,203 @@
+body{
+    margin: 0; padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: #fafafa;
+    border: 2px solid #f3f3f3;
+    display: flex;
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px 1px rgba(167, 167, 167, 0.5);
+    position: fixed;
+    z-index: 3;
+}
+#logo, nav{
+    display: flex;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+    align-items: center;
+}
+#logo a{
+    text-decoration: none;
+    color: #E4A16E;
+    display: flex;
+    height: 70px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+}
+#logo a:hover{
+    opacity: 0.8;
+}
+nav{
+    list-style: none;
+    background-color: #fafafa;
+}
+li a{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0px 40px;
+    height: 70px;
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    transition: 0.2s;
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+ul li a:hover{
+    transition: 0.5s;
+}
+ul{
+    display: none;
+    border: 1px solid #f3f3f3;
+    box-shadow: 0 5px 10px 1px rgba(167, 167, 167, 0.5);
+}
+#cadastro:hover > ul, #consulta:hover > ul{
+    position: absolute;
+    margin: 0; padding: 0;
+    display: inline-block;
+    background-color: #fafafa;
+    list-style: none;
+}
+
+
+
+#container-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #fafafa;
+}
+main{
+
+    transform: skewY(-11deg);
+}
+#form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    min-height: 300px;
+    max-height: fit-content;
+    border: #8bce6c 2px solid;
+    flex-wrap: wrap;
+    background-color: #fcfcfc;
+    transform: skewY(11deg);
+}
+#form article img{
+    height: 300px;
+}
+#form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 575px;
+}
+form #form-cad{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+h1{
+    color: #8bce6c;
+}
+.form-group{
+    justify-content: right;
+    display: flex;
+    width: 260px;
+    margin: 5px;
+    align-items: center;
+}
+.form-group label{
+    margin: 0px 6px;
+}
+.group-buttons{
+    margin: 10px 0;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.form-button{
+    background-color: #F1C49A;
+    border: rgba(158, 158, 158, 0.5) 2px solid;
+    border-radius: 30px;
+    height: 30px;
+    width: 80px;
+}
+.btnEnviar{
+    background-color: #F1C49A;
+}
+.form-button:hover{
+    background-color: #E4A16E;
+    cursor: pointer;
+}
+@media(max-width: 1004px){
+    #form article img{
+        width: 290px;
+    }
+    #form{
+        width: 900px;
+    }
+}
+@media(max-width: 879px){
+    #form article img{
+        display: none;
+    }
+    #form{
+        width: 300px;
+        background-color: white;
+        height: fit-content;
+    }
+    .form-group{
+        justify-content: left;
+    }
+    label{
+        width: 60px;
+        text-align: left;
+    }
+    main{
+        margin-top: 100px;
+        height: 130vh;
+    }
+}
+@media(max-width:637px){
+    header{
+        height: 50px;
+        font-size: 18px;
+        justify-content: center;
+    }
+    #logo a{
+        height: 50px;
+    }
+    li a{
+        height: 50px;
+        font-size: 15px;
+    }
+    li{
+        width: 80%;
+        text-align: center;
+    }
+    nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+}

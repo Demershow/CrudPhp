@@ -1,0 +1,16 @@
+#numCliente{
+    width: 50px;
+}
+#emailCliente{
+    width: 250px;
+}
+.nav-content{
+    padding-left: 680px;
+}
+#form{
+    justify-content: center;
+}
+.group-buttons{
+    justify-content: center;
+    padding-left: 180px
+}
